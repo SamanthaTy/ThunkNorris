@@ -6,7 +6,7 @@ import store from './store'
 
 import Widget from './components/Widget/Widget';
 
-const root = createRoot(document.getElementById('root') as HTMLElement).render(
+createRoot(document.getElementById('root') as HTMLElement).render(
   <Provider store={store}>
     <Widget />
   </Provider>
